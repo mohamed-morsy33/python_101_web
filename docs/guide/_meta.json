@@ -1,3 +1,25 @@
-["index"]
-["Installation"]
-["Syntax"]
+[
+  "index",
+  "installation",
+  "syntax",
+  "vars",
+  "numbers",
+  "casting",
+  "strings",
+  "booleans",
+  "operators",
+  "lists",
+  "tuples",
+  "sets",
+  "dicts",
+  "if",
+  "match",
+  "loops",
+  "functions",
+  "range",
+  "arrays",
+  "math",
+  "none",
+  "try",
+  "extras"
+]
