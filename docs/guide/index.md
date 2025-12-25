@@ -37,13 +37,8 @@ Well, because of the quotes! AKA the `"` symbols around it. Technically, even `"
 There is one thing to say though. I've actually been lying this whole time. The double and single quotes don't matter, specifically in Python. I know it's strange, but actually `"a"` vs. `'a'` isn't a thing in Python, but in other programming languages it is. So characters are single symbols, but in Python there is no special way to make something a character, it just is. I'll teach you that in due time, don't worry. For now, just know that strings are basically glorified words and symbols combined together.
 
 Example code block:
-```python live
+```python
 print("Hello from Python!")
 print("2 + 2 =", 2 + 2)
-
-for i in range(5):
-    print(f"Number {i}")
-    if i % 2 == 0:
-        print("  Even!")
 ```
 

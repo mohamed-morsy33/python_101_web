@@ -4,11 +4,11 @@ import { remarkPythonPlayground } from './plugins/remarkPythonPlayground';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
-  title: 'My Site',
-  icon: '/rspress-icon.png',
+  title: 'Python 101',
+  icon: '/python_logo.png',
   logo: {
-    light: '/rspress-light-logo.png',
-    dark: '/rspress-dark-logo.png',
+    light: '/python_logo.png',
+    dark: '/python_logo.png',
   }, 
   markdown: {
     remarkPlugins: [remarkPythonPlayground],
@@ -144,7 +144,7 @@ export default defineConfig({
       {
         icon: 'github',
         mode: 'link',
-        content: 'https://github.com/web-infra-dev/rspress',
+        content: 'https://github.com/mohamed-morsy33/python_101',
       },
     ],
   }, 
