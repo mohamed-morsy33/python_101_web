@@ -1,0 +1,142 @@
+/* Import Iosevka Nerd Font from CDN */
+@import url('https://cdn.jsdelivr.net/npm/@xz/fonts@1.0.9/serve/iosevka-nerd-font.min.css');
+
+:root {
+  /* Custom color palette */
+  --rp-c-brand: #ff6b6b;           /* Primary brand color */
+  --rp-c-brand-light: #ff8787;     /* Lighter brand color */
+  --rp-c-brand-dark: #ff5252;      /* Darker brand color */
+  --rp-c-brand-darker: #ff3838;    /* Even darker */
+  
+  /* Background colors */
+  --rp-c-bg: #1a1a2e;              /* Main background */
+  --rp-c-bg-soft: #16213e;         /* Soft background */
+  --rp-c-bg-mute: #0f3460;         /* Muted background */
+  
+  /* Text colors */
+  --rp-c-text-1: #e4e4e7;          /* Primary text */
+  --rp-c-text-2: #a1a1aa;          /* Secondary text */
+  --rp-c-text-3: #71717a;          /* Tertiary text */
+  
+  /* Border colors */
+  --rp-c-border: #27272a;
+  --rp-c-divider: #3f3f46;
+  
+  /* Code block colors */
+  --rp-c-code-bg: #0f172a;
+  --rp-c-code-inline-bg: #1e293b;
+  
+  /* Font families - Set Iosevka as default */
+  --rp-font-family-base: 'Iosevka Nerd Font', 'Iosevka', monospace;
+  --rp-font-family-mono: 'Iosevka Nerd Font', 'Iosevka', monospace;
+}
+
+/* Apply font globally */
+body {
+  font-family: var(--rp-font-family-base);
+}
+
+/* Code blocks */
+code, pre {
+  font-family: var(--rp-font-family-mono);
+}
+
+/* Navigation bar customization */
+.rspress-nav {
+  background: var(--rp-c-bg-soft);
+  border-bottom: 1px solid var(--rp-c-border);
+}
+
+/* Sidebar customization */
+.rspress-sidebar {
+  background: var(--rp-c-bg-soft);
+}
+
+/* Content area */
+.rspress-doc {
+  background: var(--rp-c-bg);
+  color: var(--rp-c-text-1);
+}
+
+/* Links */
+a {
+  color: var(--rp-c-brand);
+}
+
+a:hover {
+  color: var(--rp-c-brand-light);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--rp-c-text-1);
+  font-weight: 700;
+}
+
+/* Code blocks - enhanced styling */
+pre {
+  background: var(--rp-c-code-bg) !important;
+  border: 1px solid var(--rp-c-border);
+  border-radius: 8px;
+}
+
+/* Inline code */
+code:not(pre code) {
+  background: var(--rp-c-code-inline-bg);
+  color: var(--rp-c-brand-light);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+}
+
+/* Tables */
+table {
+  border-color: var(--rp-c-border);
+}
+
+th {
+  background: var(--rp-c-bg-soft);
+  color: var(--rp-c-text-1);
+}
+
+tr:nth-child(even) {
+  background: var(--rp-c-bg-soft);
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid var(--rp-c-brand);
+  background: var(--rp-c-bg-soft);
+  color: var(--rp-c-text-2);
+}
+
+/* Buttons */
+button {
+  font-family: var(--rp-font-family-base);
+}
+
+/* Search box */
+.rspress-search-input {
+  background: var(--rp-c-bg-mute);
+  border-color: var(--rp-c-border);
+  color: var(--rp-c-text-1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--rp-c-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--rp-c-brand);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--rp-c-brand-light);
+}

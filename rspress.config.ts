@@ -4,6 +4,7 @@ import { remarkPythonPlayground } from './plugins/remarkPythonPlayground';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
+  globalStyles: path.join(__dirname, '/public/styles/custom.css'),
   title: 'Python 101',
   icon: '/python_logo.png',
   logo: {
@@ -15,6 +16,13 @@ export default defineConfig({
   },
   
   head: [
+    [
+      'link',
+      {
+        rel: 'stylesheet',
+        href: 'https://cdn.jsdelivr.net/npm/@xz/fonts@1.0.9/serve/iosevka-nerd-font.min.css',
+      },
+    ],
     [
       'script',
       {
