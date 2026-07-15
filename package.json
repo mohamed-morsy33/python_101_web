@@ -2,6 +2,10 @@
   "name": "py_site",
   "version": "1.0.0",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "npm@10.8.2",
   "scripts": {
     "build": "rspress build",
     "dev": "rspress dev",
@@ -9,7 +13,7 @@
   },
   "dependencies": {
     "hast-util-to-html": "^9.0.5",
-    "rspress": "^1.47.1",
+    "rspress": "1.47.1",
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
