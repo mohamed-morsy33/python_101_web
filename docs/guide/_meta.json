@@ -13,6 +13,7 @@
   "sets",
   "dicts",
   "if",
+  "io",
   "match",
   "loops",
   "functions",
