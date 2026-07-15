@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd python_101_web && npm run build",
-  "outputDirectory": "python_101_web/.rspress/dist",
-  "installCommand": "cd python_101_web && npm install"
+  "buildCommand": "npm run build",
+  "outputDirectory": ".rspress/dist",
+  "installCommand": "npm install"
 }
